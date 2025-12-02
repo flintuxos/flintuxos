@@ -1,5 +1,11 @@
 # Flintux OS
 
-**Flintux OS is a linux distribution based on the monolithic kernel that aims to be very light on resources and minimalist.**
+**Flintux OS is a linux distribution based on the monolithic linux kernel that aims to be very light on resources and minimalist.**
 
 Flintux OS is built with buildroot. This means it can be configured using the 'make menuconfig' command in the source code directory, then it can be built into a .img file using the 'make' command to be used in an external drive.
+
+## Window Manager
+Flintux OS uses 'twm' as its window manager, although it can be changed within the .config file in the source code directory.
+
+## Package Manager
+At the moment, Flintux OS does **NOT** support any package managers, this is definetly a dealbreaker for some but until package repositories are added it will not exist.
