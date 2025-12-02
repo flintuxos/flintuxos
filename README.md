@@ -5,7 +5,7 @@
 Flintux OS is built with buildroot. This means it can be configured using the 'make menuconfig' command in the source code directory, then it can be built into a .img file using the 'make' command to be used in an external drive.
 
 ## Window Manager
-Flintux OS uses 'twm' as its window manager due to it being customizable and lightweight. Since it is a pretty old window manager, finding tutorials for certain things shouldn't be too difficult.
+Flintux OS uses 'twm' as its window manager due to it being customizable and lightweight. Since it is a pretty old window manager, finding tutorials for doing certain things with twm shouldn't be too difficult.
 
 ## Package Manager
 At the moment, Flintux OS does **NOT** support any package managers, this is definetly a dealbreaker for some but until package repositories are added it will not exist.
