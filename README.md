@@ -4,7 +4,7 @@
 
 Flintux OS is built with buildroot. This means that it can be configured using the 'make menuconfig' command in the source code directory, then it can be built into a .img file using the 'make' command to be used in an external drive.
 
-### Read before building:
+### Issues that should be noted before building
 - 'make savedefconfig' command will give an error if the name of the folder of the build environment is changed, this can be fixed by changing the defconfig location at 'BR2_DEFCONFIG' option in the .config file.
 
 ## Window Manager
