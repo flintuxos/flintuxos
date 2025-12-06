@@ -14,4 +14,4 @@ else
     cp -f "$TARGET_DIR/lib/grub/i386-pc/boot.img" "$BINARIES_DIR"
 fi
 
-#cp -f "$BOARD_DIR/.bash_profile" "$TARGET_DIR/root/.bash_profile"
+cp -f "$BOARD_DIR/os-release" "$TARGET_DIR/usr/lib/os-release"

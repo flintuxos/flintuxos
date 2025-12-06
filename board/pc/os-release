@@ -1,0 +1,5 @@
+NAME=FlintuxOS
+VERSION=25.12
+ID=flintuxos
+VERSION_ID=25.12
+PRETTY_NAME="Flintux OS test_25.12"
