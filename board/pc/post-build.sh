@@ -15,3 +15,4 @@ else
 fi
 
 cp -f "$BOARD_DIR/os-release" "$TARGET_DIR/usr/lib/os-release"
+cp -f "$BOARD_DIR/system.twmrc" "$TARGET_DIR/usr/share/X11/twm/system.twmrc"
